@@ -1,0 +1,43 @@
+Log file created at: 2017/12/20 11:57:24
+Running on machine: Boriss-MacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1220 11:57:24.953646 2889179968 c_interface.cc:127] Logging enabled to .
+I1220 11:57:24.954814 2889179968 c_interface.cc:271] Creating MasterModel (id=1)...
+I1220 11:57:24.957214 2889179968 collection_parser.cc:557] CollectionParserConfig.num_threads is automatically set to 4
+W1220 11:57:25.108557 145592320 helpers.cc:221] File already exists: school_batches/aaaaaa.batch
+W1220 11:57:25.126904 146665472 helpers.cc:221] File already exists: school_batches/aaaaab.batch
+W1220 11:57:25.146872 147202048 helpers.cc:221] File already exists: school_batches/aaaaac.batch
+W1220 11:57:25.162391 146128896 helpers.cc:221] File already exists: school_batches/aaaaad.batch
+W1220 11:57:25.237210 145592320 helpers.cc:221] File already exists: school_batches/aaaaae.batch
+I1220 11:57:25.252205 2889179968 c_interface.cc:372] Pass 2caeed42-b78f-424a-b052-1f52bec3540d to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I1220 11:57:25.252759 2889179968 c_interface.cc:386] Pass GatherDictionaryArgs: dictionary_target_name=2caeed42-b78f-424a-b052-1f52bec3540d, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I1220 11:57:25.254597 2889179968 dictionary_operations.cc:249] Found 5 batches in 'school_batches' folder
+I1220 11:57:25.283428 2889179968 dictionary_operations.cc:313] Find 16099 unique tokens in 476 items
+I1220 11:57:26.177863 2889179968 c_interface.cc:372] Pass 2caeed42-b78f-424a-b052-1f52bec3540d to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I1220 11:57:26.183892 2889179968 c_interface.cc:336] Disposing MasterComponent (id=1)...
+I1220 11:57:27.582875 2889179968 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I1220 11:57:27.583209 162418688 processor.cc:701] Processor thread started
+I1220 11:57:27.583225 162955264 processor.cc:701] Processor thread started
+I1220 11:57:27.583256 2889179968 c_interface.cc:271] Creating MasterModel (id=2)...
+I1220 11:57:27.583295 163491840 processor.cc:701] Processor thread started
+I1220 11:57:27.583297 164028416 processor.cc:701] Processor thread started
+I1220 11:57:27.607607 164028416 processor.cc:717] No data in processing queue, waiting...
+I1220 11:57:27.607600 162955264 processor.cc:717] No data in processing queue, waiting...
+I1220 11:57:27.607645 162418688 processor.cc:717] No data in processing queue, waiting...
+I1220 11:57:27.607650 163491840 processor.cc:717] No data in processing queue, waiting...
+I1220 11:57:30.906980 2889179968 c_interface.cc:271] Creating MasterModel (id=3)...
+I1220 11:57:30.907140 2889179968 c_interface.cc:372] Pass dictionary to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I1220 11:57:30.907356 2889179968 c_interface.cc:386] Pass GatherDictionaryArgs: dictionary_target_name=dictionary, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I1220 11:57:30.907512 2889179968 dictionary_operations.cc:249] Found 5 batches in 'school_batches' folder
+I1220 11:57:30.943711 2889179968 dictionary_operations.cc:313] Find 16099 unique tokens in 476 items
+I1220 11:57:48.961148 164028416 processor.cc:709] Processor thread stopped
+I1220 11:57:48.961203 164028416 processor.cc:710] Total number of processed batches: 0
+I1220 11:57:48.961781 163491840 processor.cc:709] Processor thread stopped
+I1220 11:57:48.961803 163491840 processor.cc:710] Total number of processed batches: 0
+I1220 11:57:48.963043 162955264 processor.cc:709] Processor thread stopped
+I1220 11:57:48.963063 162955264 processor.cc:710] Total number of processed batches: 0
+I1220 11:57:48.963361 162418688 processor.cc:709] Processor thread stopped
+I1220 11:57:48.963373 162418688 processor.cc:710] Total number of processed batches: 0
+I1220 11:57:48.963450 2889179968 c_interface.cc:336] Disposing MasterComponent (id=2)...
+I1220 11:57:48.963656 2889179968 c_interface.cc:372] Pass dictionary to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I1220 11:57:48.967200 2889179968 c_interface.cc:336] Disposing MasterComponent (id=3)...

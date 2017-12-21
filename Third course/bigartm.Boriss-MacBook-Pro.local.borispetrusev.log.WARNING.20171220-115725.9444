@@ -1,0 +1,8 @@
+Log file created at: 2017/12/20 11:57:25
+Running on machine: Boriss-MacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1220 11:57:25.108557 145592320 helpers.cc:221] File already exists: school_batches/aaaaaa.batch
+W1220 11:57:25.126904 146665472 helpers.cc:221] File already exists: school_batches/aaaaab.batch
+W1220 11:57:25.146872 147202048 helpers.cc:221] File already exists: school_batches/aaaaac.batch
+W1220 11:57:25.162391 146128896 helpers.cc:221] File already exists: school_batches/aaaaad.batch
+W1220 11:57:25.237210 145592320 helpers.cc:221] File already exists: school_batches/aaaaae.batch

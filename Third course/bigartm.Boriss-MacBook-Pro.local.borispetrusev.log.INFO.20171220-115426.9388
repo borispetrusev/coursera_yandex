@@ -1,0 +1,31 @@
+Log file created at: 2017/12/20 11:54:26
+Running on machine: Boriss-MacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1220 11:54:26.681511 2889179968 c_interface.cc:127] Logging enabled to .
+I1220 11:54:26.682524 2889179968 c_interface.cc:271] Creating MasterModel (id=1)...
+I1220 11:54:26.689018 2889179968 collection_parser.cc:557] CollectionParserConfig.num_threads is automatically set to 4
+I1220 11:54:26.967015 2889179968 c_interface.cc:372] Pass 730147cb-7e7e-4fb6-ae7e-2127c6c3525a to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I1220 11:54:26.968554 2889179968 c_interface.cc:386] Pass GatherDictionaryArgs: dictionary_target_name=730147cb-7e7e-4fb6-ae7e-2127c6c3525a, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I1220 11:54:26.974126 2889179968 dictionary_operations.cc:249] Found 5 batches in 'school_batches' folder
+I1220 11:54:27.003968 2889179968 dictionary_operations.cc:313] Find 16099 unique tokens in 476 items
+I1220 11:54:27.975148 2889179968 c_interface.cc:372] Pass 730147cb-7e7e-4fb6-ae7e-2127c6c3525a to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I1220 11:54:27.980412 2889179968 c_interface.cc:336] Disposing MasterComponent (id=1)...
+I1220 11:54:29.815627 2889179968 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I1220 11:54:29.815732 137248768 processor.cc:701] Processor thread started
+I1220 11:54:29.815830 2889179968 c_interface.cc:271] Creating MasterModel (id=2)...
+I1220 11:54:29.815830 137785344 processor.cc:701] Processor thread started
+I1220 11:54:29.815855 138321920 processor.cc:701] Processor thread started
+I1220 11:54:29.815872 138858496 processor.cc:701] Processor thread started
+I1220 11:54:29.839115 137248768 processor.cc:717] No data in processing queue, waiting...
+I1220 11:54:29.839117 138858496 processor.cc:717] No data in processing queue, waiting...
+I1220 11:54:29.839115 138321920 processor.cc:717] No data in processing queue, waiting...
+I1220 11:54:29.839179 137785344 processor.cc:717] No data in processing queue, waiting...
+I1220 11:54:43.804688 138858496 processor.cc:709] Processor thread stopped
+I1220 11:54:43.804755 138858496 processor.cc:710] Total number of processed batches: 0
+I1220 11:54:43.806147 138321920 processor.cc:709] Processor thread stopped
+I1220 11:54:43.806182 138321920 processor.cc:710] Total number of processed batches: 0
+I1220 11:54:43.807600 137785344 processor.cc:709] Processor thread stopped
+I1220 11:54:43.807621 137785344 processor.cc:710] Total number of processed batches: 0
+I1220 11:54:43.809043 137248768 processor.cc:709] Processor thread stopped
+I1220 11:54:43.809065 137248768 processor.cc:710] Total number of processed batches: 0
+I1220 11:54:43.809175 2889179968 c_interface.cc:336] Disposing MasterComponent (id=2)...

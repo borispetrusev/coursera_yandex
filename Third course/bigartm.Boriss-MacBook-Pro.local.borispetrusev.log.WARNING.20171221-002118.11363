@@ -1,0 +1,8 @@
+Log file created at: 2017/12/21 00:21:18
+Running on machine: Boriss-MacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1221 00:21:18.984181 105426944 helpers.cc:221] File already exists: batches/aaaaaa.batch
+W1221 00:21:19.679229 106500096 helpers.cc:221] File already exists: batches/aaaaab.batch
+W1221 10:02:26.012848 2889179968 check_messages.h:1075] Inconsistent fields size in ThetaMatrix: 1728 vs 0 vs 1728 vs 0;
+W1221 13:52:29.866274 123863040 helpers.cc:221] File already exists: batches/aaaaaa.batch
+W1221 13:52:30.586223 123326464 helpers.cc:221] File already exists: batches/aaaaab.batch
